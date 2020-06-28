@@ -1,1 +1,1 @@
-java13 -jar "target\java_legacy-1.0-SNAPSHOT-shaded.jar" "tt0096754" "tt0060666" "tt0317303"
+java13 -jar "target\java_legacy-1.0-SNAPSHOT.jar" "tt0096754" "tt0060666" "tt0317303"
