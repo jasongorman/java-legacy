@@ -9,7 +9,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Pricer {
-    public static Video price(String imdbID) {
+    public Video price(String imdbID) {
         String json = "";
 
         HttpClient client = HttpClient.newHttpClient();

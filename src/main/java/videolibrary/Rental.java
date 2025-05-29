@@ -4,7 +4,7 @@ public class Rental {
     private final Video video;
 
     public Rental(String imdbID) {
-        this.video = Pricer.price(imdbID);
+        this.video = new Pricer().price(imdbID);
     }
 
     public String getVideoImdbID(){
