@@ -8,8 +8,8 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class Pricer {
-    public Video price(String imdbID) {
+public class MovieInfo {
+    public Video fetch(String imdbID) {
         String json = "";
 
         HttpClient client = HttpClient.newHttpClient();

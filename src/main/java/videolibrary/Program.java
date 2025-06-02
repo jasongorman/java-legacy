@@ -3,11 +3,11 @@ package videolibrary;
 public class Program {
 
     public static void main(String[] args){
+        System.out.println("Video rental prices...");
+
         for (int i = 0; i < args.length; i++) {
             String imdbID = args[i];
             Rental rental = new Rental(imdbID);
-            Ratings ratings = new Ratings();
-            ratings.ratingsFor(imdbID);
             System.out.println(rental.getVideoImdbID() + ", " + rental.getVideoTitle() + ", " + rental.getVideoPrice());
         }
     }
